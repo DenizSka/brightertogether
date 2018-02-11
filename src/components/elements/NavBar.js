@@ -8,13 +8,13 @@ export const NavBar = () => {
     <div className= "nav-wrapper">
     <nav className="navbar" aria-label="main navigation">
       <NavLink to="/" exact className="nav-item" activeClassName="active">
-        ABOUT ME
+        HOME
       </NavLink>
-      <NavLink to="/skills" className="nav-item" activeClassName="active">
-        SKILLS
+      <NavLink to="/about" className="nav-item" activeClassName="active">
+        ABOUT US
       </NavLink>
-      <NavLink to="/projects" className="nav-item" activeClassName="active">
-        PROJECTS
+      <NavLink to="/whatwedo" className="nav-item" activeClassName="active">
+        WHAT WE DO?
       </NavLink>
     </nav>
     </div>

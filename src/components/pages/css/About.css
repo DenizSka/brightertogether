@@ -1,0 +1,69 @@
+.projectid{
+    font-family: "Open Sans";
+    font-style: normal;
+    color: black;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+  }
+
+.projebr{
+  padding-bottom: 500px;
+}
+  .outerrow{
+    font-family: "Open Sans";
+    color: rgba(0,0,0,1);
+    letter-spacing: 1px;
+    font-style: normal;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.proje{
+  background-color: #46C8FF;
+}
+
+
+.gridmission{
+  font-style: normal;
+    position: absolute;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font-size: 13px;
+    -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    -moz-column-width: 50px; /* Firefox */
+    column-width: 50px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    opacity: 0.8;
+    background-color: white;
+}
+
+
+.firstgrid{
+  font-style: normal;
+    position: absolute;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font-size: 13px;
+    -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    -moz-column-width: 50px; /* Firefox */
+    column-width: 50px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    opacity: 0.8;
+    background-color: white;
+
+  }

@@ -1,10 +1,98 @@
 .home {
   top: 0px;
   width: 100%;
-  height: 525px;
-  background-color: #f26a6b;
+/*  height: 525px;*/
+  position: relative;
+  left: 0px;
+/*  background-color: #f26a6b;*/
 }
 
+a.navclass{
+  border-bottom: black;
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-align: left;
+}
+
+
+a.navclass span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.navclass span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a.navclass:hover span {
+  padding-right: 25px;
+}
+
+a.navclass:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.outerbackground{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  color: white;
+  font-size: 15px;
+  letter-spacing: .06em;
+  line-height: 1.4em;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px;
+}
+
+
+.gridsing{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: rgba(0,0,0,1);
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: .06em;
+  padding-left: 50px;
+  text-align: left;
+  padding-right: 50px;
+
+}
+
+.gridsint{
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0,0,0,1);
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: .06em;
+  float: right;
+  text-align: right;
+  padding: 50px;
+  position: 'absolute',
+
+}
+
+.gridsint span{
+  font-size: 15px;
+
+}
 
 .homestory {
     color: white;
@@ -19,14 +107,16 @@
 #h2{
   position: relative;
 }
-
-img{
-  border-radius: 100%;
-  width: 200px;
-  height: 150px;
-  position: relative;
+/*
+.sectionstyle img{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 70px;
   max-width: 100%;
+  z-index: 1000;
   -webkit-filter: brightness(120%);
   filter: brightness(120%);
   height: auto;
-}
+}*/

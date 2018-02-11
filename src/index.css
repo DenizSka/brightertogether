@@ -9,12 +9,12 @@ p {
   line-height: 1.48;
 }
 a {
-  border-bottom: 3px solid #f26a6b;
+  border-bottom: 3px solid #E85B86;
   color: #222222;
   text-decoration: none;
   transition: background-color 0.5s ease;
 }
 a:hover,
 a:active, a:focus, a.active {
-  background-color: #f26a6b;
+  background-color: #E85B86;
 }

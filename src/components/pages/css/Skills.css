@@ -1,9 +1,50 @@
-.skillstory{
+.outerrow{
     font-family: "Open Sans";
-    color: white;
-    line-height: 1.6em;
+    color: rgba(0,0,0,1);
     letter-spacing: 1px;
     font-style: normal;
     text-align: center;
-    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
   }
+
+
+#twoid{
+    font-weight: bold;
+    font-style: normal;
+    color: rgba(0,0,0,1);
+    font-size: 32px;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    text-transform: none;
+  }
+
+#threeid{
+  font-weight: 900;
+  color: rgba(0,0,0,1);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .06em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+
+
+.firstgrid{
+  font-style: normal;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font-size: 13px;
+    -webkit-column-width: 50px; /* Chrome, Safari, Opera */
+    -moz-column-width: 50px; /* Firefox */
+    column-width: 50px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.8;
+    background-color: white;
+
+  }
+

@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import { NavBar, Header, Footer } from "./components/elements";
-
-import { Home, Skills, Projects, NotFound } from "./components/pages";
+import { Home, WhatDo, About, NotFound, Mission } from "./components/pages";
 import "./App.css";
 
 class App extends Component {
@@ -12,16 +11,15 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <NavBar />
         <main className="home">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/projects" component={Projects} />
+            <Route path="/whatwedo" component={WhatDo} />
+            <Route path="/about" component={About} />
+            <Route path="/mission" component={Mission} />
             <Route path="/" component={NotFound} />
           </Switch>
         </main>
-        <Footer />
       </div>
     );
   }

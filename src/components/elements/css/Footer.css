@@ -16,6 +16,9 @@
 }
 
 
+.footer-nav a{
+  color: black;
+}
 .footer-nav ul li {
     display: inline-block;
     opacity: 1;

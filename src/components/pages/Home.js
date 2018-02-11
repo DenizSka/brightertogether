@@ -1,19 +1,44 @@
 import React from "react";
-
+import { Background } from "./Background";
 import "./css/Home.css";
+import { Mission } from "./Mission";
+import { NavLink} from "react-router-dom";
+import { Footer } from "../elements";
+
+
+const imgStyle = {
+  width: '200px',
+  height: '200px',
+  position: 'relative',
+  filter: 'alpha(opacity=100)',
+  maxWidth: '100%',
+  zIndex: '1000',
+  webkitFilter: 'brightness(120%)',
+  filter: 'brightness(120%)',
+  float: 'left'
+
+}
+
 
 export const Home = () => {
   return (
     <div className='home'>
-    <section className="home">
-      <p className="homestory">
-      <img src={require('../img/deniz.png')} alt="aboutme"/>
-      <h2 className="homestory" id="h2"> About Me </h2>
-        Born and raised in Istanbul, living in New York.  A lifetime of travel has solidified my ambition to meet daring goals and given me flexibility in dealing with what life throws my way. As a former marketing specialist I learned to understand customer’s perspective, how to be resourceful and solve problems. I am at my happiest when I am merging my technological and creative skills to create beautiful, thoughtful websites. From building full-stack applications to researching new and emerging tech, I use my love of coding to build value for any company I work with.
+    <Background />
+      <div className="layout">
+        <div className="outergrid">
+          <p className="gridsing">
+          Supporting Women gain financial independence putting an end to financial abuse.
+          </p>
+        </div>
+        <NavLink to="/mission" className="navclass">
+        <span>OUR MISSION</span>
+      </NavLink>
+      <p className="gridsint" >
+      <img style={ imgStyle } src={require('../img/tatiana.jpg')} alt="Laptop"/>
+      “Our Organization is valuable because its main focus is alleviate the differences that exist between different classes and genders and creates an environment where immigrant women feel they can and are able to use their hard and soft skills to create a better society that will benefit them, their families and their communities.” <span>– Tatiana Cardona, Executive Director </span>
       </p>
-
-    </section>
-
+      </div>
+      <Footer />
     </div>
   );
 };

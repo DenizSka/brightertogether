@@ -1,6 +1,8 @@
 import { Home } from "./Home";
-import { Skills } from "./Skills";
-import { Projects } from "./Projects";
+import { WhatDo } from "./WhatDo";
+import { About } from "./About";
+import { Mission } from "./Mission";
 import { NotFound } from "./NotFound";
+import { Background } from "./Background";
 
-export { Home, Skills, Projects, NotFound };
+export { Home, WhatDo, About, Mission, NotFound, Background };

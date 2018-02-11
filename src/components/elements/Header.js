@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <section className="header">
       <a href="/" className="home-link">
-        <p className="header">Deniz Skantz</p>
+        <p className="header">Brighter Together</p>
       </a>
     </section>
   );
