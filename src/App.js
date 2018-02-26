@@ -17,7 +17,7 @@ class App extends Component {
             <Route path="/whatwedo" component={WhatDo} />
             <Route path="/about" component={About} />
             <Route path="/mission" component={Mission} />
-            <Route path="/" component={NotFound} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </main>
       </div>
