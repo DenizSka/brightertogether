@@ -12,7 +12,7 @@ class App extends Component {
         <Header />
         <main className="home">
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
+            <Route path="/" exact component={Home} />
             <Route path="/whatwedo" component={WhatDo} />
             <Route path="/about" component={About} />
             <Route path="/mission" component={Mission} />
