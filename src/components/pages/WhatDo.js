@@ -43,9 +43,9 @@ export const WhatDo = () => {
 
             <h3 className="grids" id="h3"> Financial literacy Program: </h3>
 
-            <p className="grids">This program is focused on giving our clients information about how to create a personal budget, open bank accounts, build a credit history, protect their identities and how to manage their money in the smartest way possible, for this is necessary to inform our clients about the correlation that exists between money and emotions and the importance of managing emotions so every dollar they spend will be spent wisely.</p>
+            <p className="grids">In the Financial Literacy program, our clients will learn how to manage their money in the smartest way possible. We will provide coaching on how to manage a personal budget, open bank accounts, build credit history, protect their identities, and have a healthy relationship with money. Women will leave the course feeling confident and equipped in their abilities to control money for themselves and their families.</p>
 
-            <h3 className="grids" id="h3"> Business Creation Program: </h3>
+            <h3 className="grids" id="h3"> Building A Business: </h3>
             <p className="grids">The Business creation program will be targeted for women who have a business idea and want to develop it. The program will then guide them through every step needed to take in order to start their own business. A curriculum will be provided as well. </p>
 
           <h4 className="grids" id="h3"> The program will focus on: </h4>
@@ -57,7 +57,7 @@ export const WhatDo = () => {
           </ul>
           <p className="grids">At the end of the program, every women or group of women will be able to have a draft business plan, and will receive seed money for startup costs. The seed money for our potential clients will be funded by gifts and donations to Brighter Together and it will serve as initial funding for cost related to: Website domain cost, materials, or registration purposes. We consider that every client who fulfills the requisites to receive the money will be given approximately USD1000. The seed money will be based upon funding BT receives.</p>
           <h3 className="grids" id="h3"> Career Advancement Program:  </h3>
-          <p className="grids">This program will have a curriculum that will serve the trainers and the trainees as a guide. Through the program, personal coaching services, basic financial training, job readiness, mock interviews with partner organizations and resume preparation training will be given to our clients. At the end of the program, every client will feel empowered and will know how to navigate the job offerings systems.</p>
+          <p className="grids">Through the Career Advancement program, our clients will become prepared to secure a stable career path, according to their skills and interests. We will provide training and mentoring in professionalism, job search, interviews, negotiating salaries, and networking in both traditional and non-traditional fields. Women will leave the course with a strong network of resources, meaningful connections, individual skills, and confidence to pursue a fulfilling career.</p>
         </div>
         </div>
       </div>
