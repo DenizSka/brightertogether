@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Skills.css";
 import { NavBar } from "../elements";
+import { Footer } from "../elements";
 
 import Backg from '../img/people-woman.jpg';
 
@@ -60,6 +61,7 @@ export const WhatDo = () => {
         </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 };

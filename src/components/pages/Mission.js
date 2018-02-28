@@ -25,18 +25,31 @@ export const Mission = () => {
       <NavBar />
       </div>
       <img style={ imgStyle } src={require('../img/laptop.jpg')} alt="Laptop"/>
-    <div className="layout">
-        <div className="outerrow">
+      <h1 className="grids" id="twoid">
+          <span>WHO WE ARE </span></h1>
+      <div className="firstgrid">
+          <h2 className="grids" id="h3"> Tatiana Cardona - Executive Director</h2>
+            <p className="grids"> Tatiana is a financial management professional and humanitarian aid practitioner with over 10 years of experience in creating business programs in South America and the U.S. Originally from Colombia, she moved to New York and received an MBA in Financial Management from Pace University. She now utilizes her expertise in finance, research management, and gender studies. She’s had first-hand experience with barriers and discrimination due to her accent, international education, and lack of social support. She’s passionate about ensuring every immigrant woman in New York City has access to opportunities on an equal level with their U.S.-born and male counterparts. </p>
 
-          <h1 className="outerrow" id="twoid"> OUR MISSION </h1>
-          <h2 className="outerrow" id="threeid"> Brighter Together creates an empowering atmosphere where immigrant women head of household have access to training, networking activities and financial capital that will help them start a successful career or with business creation according to their skills, talents and interests. We believe in equity and we are sure that if we transform the economic and social imbalances women experience, they can and will utilize their skills and talents to build a secure financial future. </h2>
 
+           <h2 className="grids" id="h3"> Deniz Skantz - Marketing and Programs Director</h2>
+            <p className="grids"> Deniz is a marketing professional with over 5 years’ experience in digital marketing, advertising, and business. She moved to the U.S. from Istanbul, Turkey and then received an MBA in Marketing Management from Pace University. After having worked in the corporate sector, she recently decided to pursue a new career path and build skills in coding. </p>
+          </div>
+          <div className="outerrows">
+          <h1 className="outerrows" id="twoid">
+          <span>MISSION & OBJECTIVES </span></h1>
+          <ul className="outerrows">
+            <li>Alleviate the differences that exist between different classes, genders, and citizenship status </li>
+            <li>Diminish the economic and social imbalances young women experience when trying to progress professionally and financially</li>
+            <li>Help women identify their assets and aspirations, and strengthen the confidence of women wanting to advance their careers</li>
+            <li>Increase the sustainability of immigrant-women-owned businesses by promoting collective entrepreneurship and inspiring business innovation </li>
+            <li>Increase the number, quality, and sustainability of business run by women immigrants in NYC</li>
+            <li>Break the stereotypes associated with immigrant and women-led businesses </li>
+            <li>Develop the cultural competence of women in the workforce  </li>
+            <li>Jumpstart a cycle of employment and fulfillment so the women can inspire and assist their families and communities  </li>
+          </ul>
+            </div>
 
-          <h1 className="outerrow" id="twoid"> OUR VISION </h1>
-          <h2 className="outerrow" id="threeid"> Alleviate the differences that exist between different classes and genders and creates an environment where immigrant women feel they can and are able to use their hard and soft skills to create a better society that will benefit them, their families and their communities. </h2>
-
-        </div>
-    </div>
     <Footer />
     </div>
   );

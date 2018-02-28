@@ -11,15 +11,18 @@ export const About = () => {
     <div className="layout">
       <div className="proje">
         <NavBar />
-      </div>
         <div className="outerrow">
-          <div className="firstgrid">
-            <h1 className="grids" id="gridsthree"> ABOUT US  </h1>
-            <p className="grids">
-            Brighter Together is an NYC-based nonprofit organization that dedicates our resources and expertise to improving the financial wellbeing of immigrant women. We want to create an empowering atmosphere where women can gain skills and confidence in business creation, financial literacy, and career advancement. We provide mentoring, counseling, specific program curriculums, networking opportunities, financial capital, and much more so that our clients can achieve financial independence, and contribute to the growth of their local economies.
 
-            Brighter Together was founded by two immigrant women who have faced many of the barriers Brighter Together seeks to overcome. They believe that equality starts with economic freedom. Their goal is to transform the economic and social imbalances women experience, and begin building an infrastructure that allows immigrant women to have opportunities for a successful and healthy life.
-            </p>
+            <h1 className="outerrow" id="twoid"> ABOUT US </h1>
+            <h2 className="outerrow" id="threeid"> Brighter Together is an NYC-based nonprofit organization that dedicates our resources and expertise to improving the financial wellbeing of immigrant women. We want to create an empowering atmosphere where women can gain skills and confidence in business creation, financial literacy, and career advancement. We provide mentoring, counseling, specific program curriculums, networking opportunities, financial capital, and much more so that our clients can achieve financial independence, and contribute to the growth of their local economies.
+
+            Brighter Together was founded by two immigrant women who have faced many of the barriers Brighter Together seeks to overcome. They believe that equality starts with economic freedom. Their goal is to transform the economic and social imbalances women experience, and begin building an infrastructure that allows immigrant women to have opportunities for a successful and healthy life. </h2>
+            <br></br>
+          </div>
+          <div className="firstgrid">
+            <NavLink to="/mission" exact className="navclass" activeClassName="active">
+              <span>WHO WE ARE</span>
+            </NavLink>
             <NavLink to="/mission" exact className="navclass" activeClassName="active">
               <span>OUR MISSION</span>
             </NavLink>
@@ -53,8 +56,10 @@ export const About = () => {
                 <li>Subject to sexual harassment and other forms of financial or emotional exploitation</li>
               </ul>
             </p>
+
         </div>
         </div>
+        <Footer />
       </div>
 
   );

@@ -13,20 +13,41 @@
 .projebr{
   padding-bottom: 500px;
 }
-  .outerrow{
+  .outerrows{
     font-family: "Open Sans";
+    font-size: 13px;
     color: rgba(0,0,0,1);
     letter-spacing: 1px;
-    font-style: normal;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    letter-spacing: .06em;
+    line-height: 3em;
     padding: 10px;
-    font-size: 15px;
+    width: 90%;
+    font-weight: 90;
+    margin: auto;
+    font-style: normal;
+    list-style: none;
   }
-
+.outerrows ul{
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#twoid span{
+    padding: 10px 20px 3px;
+    border-radius: 4px;
+    background-color: #E85B86;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    min-width: 100px;
+    height: 50px;
+    line-height: 35px;
+}
 .proje{
   background-color: #46C8FF;
+  padding-bottom: 100px;
 }
 
 
@@ -49,9 +70,9 @@
 }
 
 
+
 .firstgrid{
   font-style: normal;
-    position: absolute;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
