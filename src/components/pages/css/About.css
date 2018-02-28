@@ -45,9 +45,9 @@
     height: 50px;
     line-height: 35px;
 }
-.proje{
+.projes{
   background-color: #46C8FF;
-  padding-bottom: 100px;
+  padding: 0px;
 }
 
 
@@ -71,7 +71,7 @@
 
 
 
-.firstgrid{
+.firstgrids{
   font-style: normal;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */

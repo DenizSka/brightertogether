@@ -9,7 +9,7 @@ import { Footer } from "../elements";
 export const About = () => {
   return (
     <div className="layout">
-      <div className="proje">
+      <div className="projes">
         <NavBar />
         <div className="outerrow">
 
@@ -19,7 +19,8 @@ export const About = () => {
             Brighter Together was founded by two immigrant women who have faced many of the barriers Brighter Together seeks to overcome. They believe that equality starts with economic freedom. Their goal is to transform the economic and social imbalances women experience, and begin building an infrastructure that allows immigrant women to have opportunities for a successful and healthy life. </h2>
             <br></br>
           </div>
-          <div className="firstgrid">
+          </div>
+          <div className="firstgrids">
             <NavLink to="/mission" exact className="navclass" activeClassName="active">
               <span>WHO WE ARE</span>
             </NavLink>
@@ -57,7 +58,6 @@ export const About = () => {
               </ul>
             </p>
 
-        </div>
         </div>
         <Footer />
       </div>
