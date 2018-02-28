@@ -27,7 +27,7 @@ export const Home = () => {
       <div className="layout">
         <div className="outergrid">
           <p className="gridsing">
-          Supporting Women gain financial independence putting an end to financial abuse.
+          Empowering immigrant women toward economic freedom and equity.
           </p>
         </div>
         <NavLink to="/mission" className="navclass">

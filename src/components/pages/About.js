@@ -15,24 +15,44 @@ export const About = () => {
         <div className="outerrow">
           <div className="firstgrid">
             <h1 className="grids" id="gridsthree"> ABOUT US  </h1>
-            <p className="grids"> Brighter Together team, founded by two foreign born women, experienced the same barriers throughout their careers and that’s why, we as immigrant women workers want to break this pattern.
+            <p className="grids">
+            Brighter Together is an NYC-based nonprofit organization that dedicates our resources and expertise to improving the financial wellbeing of immigrant women. We want to create an empowering atmosphere where women can gain skills and confidence in business creation, financial literacy, and career advancement. We provide mentoring, counseling, specific program curriculums, networking opportunities, financial capital, and much more so that our clients can achieve financial independence, and contribute to the growth of their local economies.
 
-            We know that if we give proper training about Finance, Marketing and life skills, women will be more empowered to succeed in their professional careers or in the path to starting their own businesses. While we recognize and diligently work to revolutionize the economic and social inequities faced by women business owners, we also stand firm in our belief that being a woman and an entrepreneur can mutually coexist.
-            We dedicate our resources and expertise to improve the financial wellbeing of
-            immigrant (foreign-born) women who reside in New York City (NYC) and are primarily the head of their households.</p>
+            Brighter Together was founded by two immigrant women who have faced many of the barriers Brighter Together seeks to overcome. They believe that equality starts with economic freedom. Their goal is to transform the economic and social imbalances women experience, and begin building an infrastructure that allows immigrant women to have opportunities for a successful and healthy life.
+            </p>
             <NavLink to="/mission" exact className="navclass" activeClassName="active">
               <span>OUR MISSION</span>
             </NavLink>
-            <h1 className="grids" id="h3"> OUR GOAL </h1>
+            <h1 className="grids" id="h3"> Who do we aim to help? </h1>
 
-            <p className="grids">Brighter Together goal is to increase the number, quality and sustainability of businesses created and run by female immigrant head of households in NYC, as well as give the necessary career advancement tools to those that don’t want to pursue entrepreneurship so they can start successful careers in their field of interests according with their skills and abilities.</p>
+            <p className="grids">We want to alieve the challenges especially afflicting immigrant women living in New York City. We are qualified to help women who are immigrants, head of their households, single moms, LGBTQ+ community, undocumented, new to the U.S., those with limited English proficiency, or those with no degree from a US educational institution. They are early-stage entrepreneurs who need guidance and resources to hone in on their skills, jumpstart their careers, and begin making the best future for themselves, their families, and their communities.</p>
 
-            <h1 className="grids" id="h3"> OBJECTIVES</h1>
-            <p className="grids">We will reach our goal by creating a safe, innovative and empowering environment for potential entrepreneurs where they can identify their assets and aspirations through coaching and trainings; build strong and lasting bonds with other entrepreneurs, and connect with resources and services available to them. We will also create partnerships with other agencies and private companies so the women that are not interested in entrepreneurship can develop a successful career.
-              We are determined to break the stereotypes associated with immigrant and female-led business:
-              In terms of business type: We will provide an innovative platform where women can dream and design businesses beyond the traditional type such as baby-sitting and cleaning.
-              In terms of capacity: We will provide career coaching in addition to managerial and financial trainings which will increase our clients’ access to capital and the scalability of their businesses. According to a NYC research women-owned business lag behind those led by men in scaling up which is associated with risk-averseness, lack of credit and access to capital.
-              In terms of sustainability: By bringing like-minded entrepreneurs together and promoting collective entrepreneurship we will improve the social and business support network of our clients which will lead to improved sustainability and continuous business innovation --according to a recent Harvard Business Review study “individualism” in entrepreneurship is affecting business sustainability negatively. </p>
+            <h1 className="grids" id="h3"> What Makes Us Unique?</h1>
+            <p className="grids">
+              <ul className="grids">
+                <li>We focus on immigrant women and the economic, social, and legal barriers they specifically face.</li>
+                <li>We work to end societal and economic inequalities, while also empowering individual women to succeed.</li>
+                <li>We coach work-life balance and self-care so women can make the most of their personal and professional lives.</li>
+                <li>We introduce and prepare women for traditional and non-traditional work opportunities </li>
+                <li>We answer the needs of specific groups, like single moms.</li>
+                <li>We were founded by two women who have first-hand experience with overcoming barriers for immigrant women and business growth.</li>
+              </ul>
+            </p>
+
+            <h1 className="grids" id="h3"> Barriers faced by immigrant women in NYC</h1>
+            <p className="grids">
+              <ul className="grids">
+                <li>Language barrier</li>
+                <li>Unfamiliarity with the legal system</li>
+                <li>Limited access to information and support networks</li>
+                <li>Unacceptance of foreign-earned degrees and education</li>
+                <li>Startup costs for businesses or career pursuits</li>
+                <li>Management of personal life, such as challenges for single moms</li>
+                <li>Disability limitations</li>
+                <li>Underrepresentation in managerial, professional, business-ownership, and other work with higher wages and stable income </li>
+                <li>Subject to sexual harassment and other forms of financial or emotional exploitation</li>
+              </ul>
+            </p>
         </div>
         </div>
       </div>
