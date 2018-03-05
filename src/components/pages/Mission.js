@@ -28,11 +28,11 @@ export const Mission = () => {
       <h1 className="grids" id="twoid">
           <span>WHO WE ARE </span></h1>
       <div className="firstgrid">
-          <h2 className="grids" id="h3"> Tatiana Cardona - Executive Director</h2>
+          <h2 className="grids" id="h3"> Tatiana Cardona </h2>
             <p className="grids"> Tatiana is a financial management professional and humanitarian aid practitioner with over 10 years of experience in creating business programs in South America and the U.S. Originally from Colombia, she moved to New York and received an MBA in Financial Management from Pace University. She now utilizes her expertise in finance, research management, and gender studies. She’s had first-hand experience with barriers and discrimination due to her accent, international education, and lack of social support. She’s passionate about ensuring every immigrant woman in New York City has access to opportunities on an equal level with their U.S.-born and male counterparts. </p>
 
 
-           <h2 className="grids" id="h3"> Deniz Skantz - Marketing and Programs Director</h2>
+           <h2 className="grids" id="h3"> Deniz Skantz </h2>
             <p className="grids"> Deniz is a marketing professional with over 5 years’ experience in digital marketing, advertising, and business. She moved to the U.S. from Istanbul, Turkey and then received an MBA in Marketing Management from Pace University. After having worked in the corporate sector, she recently decided to pursue a new career path and build skills in coding. </p>
           </div>
           <div className="outerrows">

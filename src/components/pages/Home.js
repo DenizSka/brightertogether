@@ -38,7 +38,7 @@ export const Home = () => {
         </NavLink>
       <p className="gridsint" >
       <img style={ imgStyle } src={require('../img/tatiana.jpg')} alt="Laptop"/>
-      “Our Organization is valuable because its main focus is alleviate the differences that exist between different classes and genders and creates an environment where immigrant women feel they can and are able to use their hard and soft skills to create a better society that will benefit them, their families and their communities.” <span>– Tatiana Cardona, Executive Director </span>
+      “Our Organization is valuable because its main focus is alleviate the differences that exist between different classes and genders and creates an environment where immigrant women feel they can and are able to use their hard and soft skills to create a better society that will benefit them, their families and their communities.” <span>– Tatiana Cardona </span>
       </p>
       </div>
       <Footer />
